@@ -22,19 +22,19 @@
             </intent-filter>
         </activity>
         <activity android:name="com.paypal.authcore.authentication.TokenActivity"
-            android:exported="true"
+            android:exported="false"
             tools:node="merge" />
         <activity
             android:name="com.paypal.openid.RedirectUriReceiverActivity"
-            android:exported="false"
-            tools:node="merge" />
-        <activity
-            android:name="com.paypal.pyplcheckout.home.view.activities.PYPLHomeActivity"
             android:exported="true"
             tools:node="merge" />
         <activity
-            android:name="com.paypal.pyplcheckout.home.view.activities.PYPLInitiateCheckoutActivity"
+            android:name="com.paypal.pyplcheckout.home.view.activities.PYPLHomeActivity"
             android:exported="false"
+            tools:node="merge" />
+        <activity
+            android:name="com.paypal.pyplcheckout.home.view.activities.PYPLInitiateCheckoutActivity"
+            android:exported="true"
             tools:node="merge" />
     </application>
 
